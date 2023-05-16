@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Static Template</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <img
+            src="/assets/img/logo.png"
+            style="width: 150px; height: 50px;"
+            alt=""
+          />
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item header-menu">
+              <a href="#" class="nav-link">Serviços</a>
+            </li>
+            <li class="nav-item header-menu">
+              <a href="#" class="nav-link">Nossa equipe</a>
+            </li>
+            <li class="nav-item header-menu">
+              <a href="#" class="nav-link"> Nossa Unidade</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login-button">
+          <button>
+            <a href="#">
+              <div class="fa fa-sign-in header-menu"></div>
+              Entrar</a
+            >
+          </button>
+        </div>
+
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="assets/img/menu_white_36dp.svg" alt="" />
+          </button>
+        </div>
+      </nav>
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Nossa equipe</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Nossa Unidade</a>
+          </li>
+        </ul>
+
+        <div class="login-button">
+          <button>
+            <a href="#">
+              <div class="fa fa-sign-in"></div>
+              Entrar</a
+            >
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="btn-wrap">
+      <img style="width: 100%; height: 100%;" src="assets/img/capa.jpg" />
+      <div class="buton">
+        <p class="chamada">Venha conhecer nossa unidade!</p>
+        <br />
+        <button class="btn-1 bota">
+          <a href="#" id="bota"><strong>Faça sua reserva.</strong></a>
+        </button>
+      </div>
+    </div>
+    <div class="tx-servico">
+      <h2>
+        Serviços
+      </h2>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+        libero et velit interdum, ac aliquet odio mattis. Class aptent taciti
+        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+      </p>
+    </div>
+    <div class="collum-gallery">
+      <div class="gallery">
+        <img src="/assets/img/corteCabelo.png" alt="Cinque Terre" />
+        <div class="desc"><strong>Corte</strong></div>
+      </div>
+
+      <div class="gallery">
+        <img src="/assets/img/corteBarba.png" alt="Forest" />
+        <div class="desc"><strong>Barba</strong></div>
+      </div>
+      <div class="gallery">
+        <img src="/assets/img/corteRelaxamento.png" alt="Northern Lights" />
+
+        <div class="desc"><strong>Relaxamento</strong></div>
+      </div>
+
+      <div class="gallery">
+        <img src="/assets/img/corteNoivo.png" alt="Mountains" />
+        <div class="desc"><strong>Dia do Noivo</strong></div>
+      </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
